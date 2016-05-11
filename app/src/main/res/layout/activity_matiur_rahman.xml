@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/birsrestho_bk"
+    tools:context=".Birsrestho.MatiurRahmanActivity"
+    tools:showIn="@layout/activity_matiur_rahman">
+
+    <TextView
+        android:id="@+id/textViewheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ফ্লাইট লেফটেন্যান্ট মতিউর রহমান"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        style="@style/Widget.AppCompat.ActionBar.TabView"
+        android:background="#88676767"
+        android:layout_marginTop="10dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollviewforJahangir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewheading"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#88676767">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/img5edited22"
+                    android:id="@+id/imageView" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewdata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="জন্ম ও শিক্ষাজীবন: \n মতিউর রহমান ১৯৪১ সালের ২৯ অক্টোবর পুরান ঢাকার ১০৯ আগা সাদেক রোডের পৈত্রিক বাড়ি মোবারক লজ-এ জন্মগ্রহণ করেন। ৯ ভাই ও ২ বোনের মধ্যে মতিউর ৬ষ্ঠ। তাঁর বাবা মৌলভী আবদুস সামাদ, মা সৈয়দা মোবারকুন্নেসা খাতুন। ঢাকা কলেজিয়েট স্কুল থেকে ষষ্ঠ শ্রেণী পাস করার পর সারগোদায় পাকিস্তান বিমান বাহিনী পাবলিক স্কুলে ভর্তি হন। ডিস্টিংকশনসহ মেট্রিক পরীক্ষায় সাফল্যের সাথে প্রথম বিভাগে উত্তীর্ণ হন। ১৯৬১ সালে বিমান বাহিনীতে যোগ দেন। ১৯৬৩ সালের জুন মাসে রিসালপুর পি,এ,এফ কলেজ থেকে কমিশন লাভ করেন এবং জেনারেল ডিউটি পাইলট হিসাবে নিযুক্ত হন। এরপর করাচির মৌরীপুরে জেট কনভার্সন কোর্স সমাপ্ত করে পেশোয়ারে গিয়ে জেটপাইলট হন। ১৯৬৫ তে ভারত-পাকিস্তান যুদ্ধের সময় ফ্লাইং অফিসার অবস্থায় কর্মরত ছিলেন। এরপর মিগ কনভার্সন কোর্সের জন্য পুনরায় সারগোদায় যান। সেখানে ১৯৬৭ সালের ২১ জুলাই তারিখে একটি মিগ-১৯ বিমান চালানোর সময় আকাশে সেটা হঠাৎ বিকল হয়ে গেলে দক্ষতার সাথে প্যারাসুট যোগে মাটিতে অবতরণ করেন। ১৯৬৭ সালে তিনি ফ্লাইট লেফটেন্যান্ট পদে পদোন্নতি লাভ করেন। ইরানের রানী ফারাহ দিবার সম্মানে পেশোয়ারে অনুষ্ঠিত বিমান মহড়ায় তিনি ছিলেন একমাত্র বাঙালি পাইলট। রিসালপুরে দু'বছর ফ্লাইং ইন্সট্রাক্টর হিসাবে কাজ করার পর ১৯৭০ এ বদলি হয়ে আসেন জেট ফ্লাইং ইন্সট্রাক্টর হয়ে। ১৯৭১ এর ফেব্রুয়ারি মাসে ঢাকায় ছুটিতে আসেন।"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"
+                android:background="#88676767"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textViewdata2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="মুক্তিযুদ্ধে ভূমিকা: \n ১৯৭১ সালের শুরুতে জানুয়ারির শেষ সপ্তাহে মতিউর সপরিবারে দুই মাসের ছুটিতে আসেন ঢাকা৷ ২৫ মার্চের কালরাতে মতিউর ছিলেন রায়পুরের রামনগর গ্রামে ৷ পাকিস্তান বিমান বাহিনীর একজন ফ্লাইট লেফটেন্যান্ট হয়েও অসীম ঝুঁকি ও সাহসিকতার সাথে ভৈরবে একটি ট্রেনিং ক্যাম্প খুললেন ৷ যুদ্ধ করতে আসা বাঙালি যুবকদের প্রশিক্ষণ দিতে থাকলেন ৷ মুক্তিযোদ্ধাদের বিভিন্ন স্থান থেকে সংগ্রহ করা অস্ত্র দিয়ে গড়ে তুললেন একটি প্রতিরোধ বাহিনী ৷ ১৯৭১ সালের ১৪ এপ্রিল পাকিস্তানি বিমান বাহিনী 'সেভর জেড' বিমান থেকে তাঁদের ঘাঁটির উপর বোমাবর্ষণ করে ৷ মতিউর রহমান পূর্বেই এটি আশঙ্কা করেছিলেন ৷ তাই ঘাঁটি পরিবর্তনের কারণে ক্ষয়ক্ষতি থেকে রক্ষা পান তিনি ও তাঁর বাহিনী ৷ এরপর ১৯৭১ সালের ২৩ এপ্রিল ঢাকা আসেন ও ৯ মে সপরিবারে করাচি ফিরে যান ৷ ১৯৭১ সালের ২০ আগস্ট সকালে করাচির মৌরিপুর বিমান ঘাঁটিতে তারই এক ছাত্র রশীদ মিনহাজের কাছ থেকে একটি জঙ্গি বিমান ছিনতাই করেন। কিন্তু রশীদ এ ঘটনা কন্ট্রোল টাওয়ারে জানিয়ে দিলে, অপর চারটি জঙ্গি বিমান মতিউরের বিমানকে ধাওয়া করে। এ সময় রশীদের সাথে মতিউরের ধ্বস্তাধস্তি চলতে থাকে এবং এক পর্যায়ে রশীদ ইজেক্ট সুইচ চাপলে মতিউর বিমান থেকে ছিটকে পড়েন এবং বিমান উড্ডয়নের উচ্চতা কম থাকায় রশীদ সহ বিমানটি ভারতীয় সীমান্ত থেকে মাত্র ৩৫ মাইল দূরে থাট্টা এলাকায় বিমানটি বিধ্বস্ত হয়। মতিউরের সাথে প্যারাসুট না থাকাতে তিনি নিহত হন। তাঁর মৃতদেহ ঘটনাস্থল হতে প্রায় আধ মাইল দূরে পাওয়া যায়। রশীদকে পাকিস্তান সরকার সম্মানসূচক খেতাব দান করে। ২০০৬ সালের ২৩ জুন মতিউর রহমানের দেহাবশেষ পাকিস্তান হতে বাংলাদেশে ফিরিয়ে আনা হয়। তাঁকে পূর্ণ মর্যাদায় ২৫শে জুন শহীদ বুদ্ধিজীবী গোরস্থানে পুনরায় দাফন করা হয়।
+"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"
+                android:background="#88676767"
+                android:layout_marginTop="10dp" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

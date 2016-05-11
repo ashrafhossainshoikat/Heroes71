@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/birsrestho_bk"
+    tools:context=".Birsrestho.MunsiAbdurRaufActivity"
+    tools:showIn="@layout/activity_munsi_abdur_rauf">
+
+    <TextView
+        android:id="@+id/textViewheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ল্যান্সনায়েক মুন্সি আব্দুর রউফ"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        style="@style/Widget.AppCompat.ActionBar.TabView"
+        android:background="#88676767"
+        android:layout_marginTop="10dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollviewforJahangir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewheading"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#88676767">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/img6edited22"
+                    android:id="@+id/imageView" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewdata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="জন্ম ও শিক্ষাজীবন: \n ১৯৪৩ সালের মে মাসে ফরিদপুর জেলার মধুখালী উপজেলার (পূর্বে বোয়ালমারী উপজেলার অন্তর্গত) সালামতপুর গ্রামে জন্মগ্রহণ করেন। তাঁর পিতার নাম মুন্সি মেহেদী হোসেন এবং মাতার নাম মকিদুন্নেসা। কিশোর বয়সে রউফ-এর পিতা মারা যান। ফলে তিনি উচ্চশিক্ষা লাভের সুযোগ থেকে বঞ্চিত হন। তিনি অষ্টম শ্রেনী পর্যন্ত অধ্যয়ন করেন।"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"
+                android:background="#88676767"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textViewdata2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="মুক্তিযুদ্ধে ভূমিকা: \n ১৯৬৩-র ৮ মে ইস্ট পাকিস্তান রাইফেলস-এ ভর্তি হন। ১৯৭১ এর ২৫ মার্চ স্বাধীনতা যুদ্ধের শুরুতে চট্টগ্রামে ১১ নম্বর উইং এ কর্মরত ছিলেন। সে সময় তিনি ইস্ট বেঙ্গল রেজিমেন্টের সঙ্গে স্বাধীনতা যুদ্ধে যোগদান করেন। ৮ম ইস্ট বেঙ্গল রেজিমেন্টের একটি কোম্পনীর সাথে বুড়িঘাটে অবস্থান নেন পার্বত্য চট্টগ্রামে রাঙ্গামাটি-মহালছড়ি জলপথ প্রতিরোধ করার জন্য ৮ এপ্রিল পাকিস্তান সেনাবাহিনীর কমান্ডো ব্যাটেলিয়নের দুই কোম্পানী সৈন্য, সাতটি স্পীড বোট এবং দুটি লঞ্চে করে বুড়িঘাট দখলের জন্য অগ্রসর হয়। তারা প্রতিরক্ষি বূহ্যের সামনে এসে ৩ টি মর্টার এবং অন্যান্য ভারী অস্ত্র দিয়ে হঠাৎ অবিরাম গোলা বর্ষন শুরু করে। গোলাবৃষ্টির তীব্রতায় প্রতিরক্ষার সৈন্যরা পেছনে সরে বাধ্য হয়। কিন্তু ল্যান্সনায়েক মুন্সি আব্দুর রউফ পেছনে হটতে অস্বীকৃতি জানান। নিজ পরিখা থেকে মেশিনগানের গুলিবর্ষণ শুরু করেন। মেশিনগানের এই পাল্টা আক্রমণের ফলে শত্রুদের স্পীড বোট গুলো ডুবে যায়। হতাহত হয় এর আরোহীরা। পেছনের দুটো লঞ্চ দ্রুত পেছনে গিয়ে নিরাপদ দুরত্বে অবস্থান নেয়। সেখান থেকে শুরু করে দুরপাল্লার ভারী গোলাবর্ষণ। মর্টারের ভারী গোলা এসে পরে আব্দুর রউফের উপর। লুটিয়ে পড়েন তিনি, নীরব হয়ে যায় তাঁর মেশিনগান। ততক্ষণে নিরাপদ দূরুত্বে সরে যেতে সক্ষম হন তাঁর সহযোদ্ধারা।
+
+            শহীদ ল্যান্স নায়েক বীরশ্রেষ্ঠ মুন্সি আব্দুর রউফের সমাধি পার্বত্য জেলা রাঙামাটির নানিয়ার চরে।"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"
+                android:background="#88676767"
+                android:layout_marginTop="10dp" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

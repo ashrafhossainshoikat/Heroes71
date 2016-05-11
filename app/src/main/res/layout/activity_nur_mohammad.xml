@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Birsrestho.NurMohammadActivity"
+    android:background="@drawable/birsrestho_bk"
+    tools:showIn="@layout/activity_nur_mohammad">
+
+    <TextView
+        android:id="@+id/textViewheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ল্যান্সনায়েক নূর মোহাম্মদ শেখ"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        style="@style/Widget.AppCompat.ActionBar.TabView"
+        android:background="#88676767"
+        android:layout_marginTop="10dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollviewforJahangir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewheading"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#88676767">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/img7edited22"
+                    android:id="@+id/imageView" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewdata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="জন্ম ও শিক্ষাজীবন: \n ১৯৩৬ সালের ২৬ ফেব্রুয়ারি নড়াইল জেলার মহিষখোলা গ্রামের এক দরিদ্র পরিবারে নূর মোহাম্মদ শেখ জন্মগ্রহণ করেন। তাঁর পিতা মোহাম্মদ আমানত শেখ, মাতা জেন্নাতুন্নেসা। অল্প বয়সে বাবা-মাকে হারান ফলে শৈশবেই ডানপিটে হয়ে পড়েন। স্থানীয় প্রাথমিক বিদ্যালয়ের লেখাপড়া শেষ করে উচ্চ বিদ্যালয়ে ভর্তি হন। সপ্তম শ্রেণীর পর আর পড়াশোনা করেননি। নিজ গ্রামেরই সম্পন্ন কৃষক ঘরের মেয়ে তোতাল বিবিকে বিয়ে করেন। ১৯৫৯-এর ১৪ মার্চ পূর্ব পাকিস্তান রাইফেলস বা ইপিআর-এ যোগদান করেন। দীর্ঘদিন দিনাজপুর সীমান্তে চাকরি করে ১৯৭০ সালের ১০ জুলাই নূর মোহাম্মদকে দিনাজপুর থেকে যশোর সেক্টরে বদলি করা হয়। এরপর তিনি ল্যান্স নায়েক পদে পদোন্নতি পান।"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"
+                android:background="#88676767"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textViewdata2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="মুক্তিযুদ্ধে ভূমিকা: \n ১৯৭১- এর ৫ সেপ্টেম্বর সুতিপুরে নিজস্ব প্রতিরক্ষার সামনে যশোর জেলার গোয়ালহাটি গ্রামে নূর মোহাম্মদকে অধিনায়ক করে পাঁচ জনের সমন্বয়ে গঠিত একটি স্ট্যান্ডিং পেট্রোল পাঠানো হয়। সকাল সাড়ে নয়টার দিকে হঠাৎ পাকিস্তানী সেনাবাহিনী পেট্রোলটি তিন দিক থেকে ঘিরে ফেলে গুলিবর্ষণ করতে থাকে। পেছনে মুক্তিযোদ্ধাদের নিজস্ব প্রতিরক্ষা থেকে পাল্টা গুলিবর্ষণ করা হয়। তবু পেট্রোলটি উদ্ধার করা সম্ভব হয় না। এক সময়ে সিপাহী নান্নু মিয়া গুলিবিদ্ধ হয়ে মাটিতে লুটিয়ে পড়লে নূর মোহাম্মদ নান্নু মিয়াকে কাঁধে তুলে নেন এবং হাতের এল.এম.জি দিয়ে এলোপাতাড়ি গুলি চালাতে শুরু করলে শত্রুপক্ষ পশ্চাৎপসরণ করতে বাধ্য হয়। হঠাৎ করেই শত্রুর মর্টারের একটি গোলা এসে লাগে তাঁর ডান কাঁধে। ধরাশয়ী হওয়া মাত্র আহত নান্নু মিয়াকে বাঁচানোর জন্য ব্যাকুল হয়ে উঠেন। হাতের এল.এম.জি সিপাহী মোস্তফাকে দিয়ে নান্নু মিয়াকে নিয়ে যেতে বললেন এবং মোস্তফার রাইফেল চেয়ে নিলেন যতক্ষণ না তাঁরা নিরাপদ দূরুত্বে সরে যেতে সক্ষম হন ততক্ষণে ঐ রাইফেল দিয়ে শত্রুসৈন্য ঠেকিয়ে রাখবেন এবং শত্রুর মনোযোগ তাঁর দিকেই কেন্দ্রীভুত করে রাখবেন। অন্য সঙ্গীরা তাদের সাথে অনুরোধ করলেন যাওয়ার জন্যে। কিন্তু তাঁকে বহন করে নিয়ে যেতে গেলে সবাই মারা পড়বে এই আশঙ্কায় তিনি রণক্ষেত্র ত্যাগ করতে রাজি হলেন না। বাকিদের অধিনায়োকোচিত আদেশ দিলেন তাঁকে রেখে চলে যেতে। তাঁকে রেখে সন্তর্পণে সরে যেতে পারলেন বাকিরা। এদিকে সমানে গুলি ছুড়তে লাগলেন রক্তাক্ত নূর মোহাম্মদ। একদিকে পাকিস্তানী সশস্ত্রবাহিনী, সঙ্গে অত্যাধুনিক স্বয়ংক্রিয় অস্ত্রশস্ত্র, অন্যদিকে মাত্র অর্ধমৃত সৈনিক (ই.পি.আর.) সম্বল একটি রাইফেল ও সীমিত গুলি। এই অসম অবিশ্বাস্য যুদ্ধে তিনি শত্রুপক্ষের এমন ক্ষতিসাধন করেন যে তারা এই মৃত্যুপথযাত্রী যোদ্ধাকে বেয়নেট দিয়ে বিকৃত করে চোখ দুটো উপড়ে ফেলে। পরে প্রতিরক্ষার সৈনিকরা এসে পাশের একটি ঝাড় থেকে তাঁর মৃতদেহ উদ্ধার করে। এই বীরসেনানীকে পরবর্তীতে যশোরের কাশিপুর গ্রামে সমাহিত করা হয়।"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"
+                android:background="#88676767"
+                android:layout_marginTop="10dp" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

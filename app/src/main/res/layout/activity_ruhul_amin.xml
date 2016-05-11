@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/birsrestho_bk"
+    tools:context=".Birsrestho.RuhulAminActivity"
+    tools:showIn="@layout/activity_ruhul_amin">
+
+    <TextView
+        android:id="@+id/textViewheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ইঞ্জিন আর্টিফিসার মোহাম্মদ রুহুল আমিন"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        style="@style/Widget.AppCompat.ActionBar.TabView"
+        android:background="#88676767"
+        android:layout_marginTop="10dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollviewforJahangir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewheading"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#88676767">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/img4edited22"
+                    android:id="@+id/imageView" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewdata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="জন্ম ও শিক্ষাজীবন: \n মোহাম্মদ রুহুল আমিন ১৯৩৫ সালে নোয়াখালী জেলার বাঘচাপড়া গ্রামে জন্মগ্রহণ করেন। তাঁর পিতা আজহার পাটোয়ারী, মাতা জোলখা খাতুন। তিনি বাঘচাপড়া প্রাইমারী স্কুলে পড়াশোনা শেষ করে আমিষাপাড়া হাই স্কুলে ভর্তি হন। ১৯৫৩ সালে জুনিয়র মেকানিক্যাল ইঞ্জিনিয়ার হিসাবে পাকিস্তান নৌ-বাহিনীতে যোগদান করেন।"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"
+                android:background="#88676767"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textViewdata2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="মুক্তিযুদ্ধে ভূমিকা: \n মোহাম্মদ রুহুল আমিন আরব সাগরে অবস্থিত মানোরা দ্বীপে পি.এন.এস বাহাদুর-এ প্রাথমিক প্রশিক্ষণ নেন। প্রাথমিক প্রশিক্ষণ গ্রহণের পর পি.এন.এস. কারসাজে যোগদান করেন। ১৯৫৮ সালে পেশাগত প্রশিক্ষণ শেষ করেন। ১৯৬৫ -তে মেকানিসিয়ান কোর্সের জন্য নির্বাচিত হন। পি.এন.এস. কারসাজে কোর্স সমাপ্ত করার পর আর্টিফিসার পদে নিযুক্ত হন। ১৯৬৮ সালে চট্টগ্রাম পি.এন.এস. বখতিয়ার নৌ-ঘাটিঁতে বদলি হয়ে যান। ১৯৭১ সালের এপ্রিলে ঘাটিঁ থেকে পালিয়ে যান। ভারতের ত্রিপুরা সীমান্ত অতিক্রম করে ২ নম্বর সেক্টরে মুক্তিযুদ্ধে যোগদান করেন। সেপ্টেম্বর পর্যন্ত ২ নম্বর সেক্টরের অধীনে থেকে বিভিন্ন স্থলযুদ্ধে অংশগ্রহণ করেন। ১৯৭১ সালের সেপ্টেম্বর মাসে বাংলাদেশ নৌবাহিনী গঠনের উদ্যোগ গ্রহণ করা হয়৷ এ উদ্দেশ্যে নৌবাহিনীর সদস্যদের যাঁরা বিভিন্ন সেক্টর ও সাব-সেক্টরে থেকে মুক্তিযুদ্ধ করছিলেন তাঁদেরকে সেপ্টেম্বর মাসে একত্রিত করা হয় আগরতলায় এবং গঠন করা হয় ১০ নং সেক্টর৷ ইঞ্জিনরুম আর্টিফিসার মোহাম্মদ রুহুল আমিন নৌবাহিনীর সদস্যদের সঙ্গে আগরতলায় একত্রিত হয়ে কলকাতায় আসেন এবং যোগ দেন ১০ নং নৌ সেক্টরে৷\n ৬ ডিসেম্বর মুক্তিবাহিনী যশোর সেনানিবাস দখলের পর ভারতীয় সরকারের দেয়া দুটি গানবোট 'পদ্মা', 'পলাশ' এবং ভারতীয় মিত্রবাহিনীর একটি গানবোট 'পানভেল' খুলনার মংলা বন্দরে পাকিস্তানি নৌ-ঘাটিঁ পি.এন.এস. তিতুমীর দখলের উদ্দেশ্যে বাংলাদেশ-এ প্রবেশ করে। ১০ ডিসেম্বর দুপুর ১২ টার দিকে গানবোটগুলো খুলনা শিপইয়ার্ডের কাছে এলে অনেক উচুঁতে তিনটি জঙ্গি বিমানকে উড়তে দেখা যায়। শত্রুর বিমান অনুধাবন করে পদ্মা ও পলাশ থেকে গুলি করার অনুমতি চাওয়া হয়। কিন্তু অভিযানের সর্বাধিনায়ক ক্যাপ্টেন মনেন্দ্রনাথ ভারতীয় বিমান মনে করে গুলিবর্ষণ থেকে বিরত থাকার নির্দেশ দেন। এর কিছুক্ষণ পরে বিমানগুলো অপ্রত্যাশিত ভাবে নিচে নেমে আসে এবং আচমকা গুলিবর্ষণ শুরু করে। গোলা সরাসরি 'পদ্মা' এর ইঞ্জিন রুমে আঘাত করে ইঞ্জিন বিধ্বস্ত করে। হতাহত হয় অনেক নাবিক। 'পদ্মা'-র পরিণতিতে পলাশের অধিনায়ক লে. কমান্ডার রায় চৌধুরী নাবিকদের জাহাজ ত্যাগের নির্দেশ দেন। রুহুল আমিন এই আদেশে ক্ষিপ্ত হন। তিনি উপস্থিত সবাইকে যুদ্ধ বন্ধ না করার আহ্বান করেন। কামানের ক্রুদের বিমানের দিকে গুলি ছুড়ঁতে বলে ইঞ্জিন রুমে ফিরে আসেন। কিন্তু অধিনায়কের আদেশ অমান্য করে বিমানগুলোকে চ্যালেঞ্জ করা হয়নি। বিমানগুলো উপূর্যপুরি বোমাবর্ষণ করে পলাশের ইঞ্জিনরুম ধ্বংস করে দেয়। আহত হন তিনি। কিন্তু অসীম সাহসী রুহুল আমিন তারপর-ও চেষ্টা চালিয়ে যান পলাশ কে বাঁচানোর। অবশেষে পলাশের ধ্বংশাবশেষ পিছে ফেলেই আহত রুহুল আমিন ঝাঁপিয়ে পড়েন রূপসা-এ। প্রাণশক্তি-তে ভরপুর এ যোদ্ধা একসময় পাড়ে-ও এসে পৌছান। কিন্তু ততক্ষণে সেখানে ঘৃণ্য রাজাকারের দল অপেক্ষা করছে তার জন্য। আহত এই বীর সন্তান কে তারা বেয়নেট দিয়ে খুঁচিয়ে হত্যা করে রূপসা-র পাড়ে-ই। তাঁর বিকৃত মৃতদেহ বেশকিছুদিন সেখানে পড়ে ছিলো অযত্নে, অবহেলায়।"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"
+                android:background="#88676767"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

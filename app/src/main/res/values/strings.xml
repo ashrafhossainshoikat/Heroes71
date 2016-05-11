@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Heroes 71</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_birsrestho">BirsresthoActivity</string>
+    <string name="title_activity_mohiuddin">MohiuddinActivity</string>
+    <string name="title_activity_hamidur">HamidurActivity</string>
+    <string name="title_activity_mostofa_kamal">MostofaKamalActivity</string>
+    <string name="title_activity_ruhul_amin">RuhulAminActivity</string>
+    <string name="title_activity_matiur_rahman">MatiurRahmanActivity</string>
+    <string name="title_activity_munsi_abdur_rauf">MunsiAbdurRaufActivity</string>
+    <string name="title_activity_nur_mohammad">NurMohammadActivity</string>
+    <string name="bangla_app_name">৭১ এর বীরেরা</string>
+    <string name="title_activity_biruttom">BiruttomActivity</string>
+    <string name="title_activity_birbikrom">BirbikromActivity</string>
+    <string name="title_activity_birprotik">BirprotikActivity</string>
+
+</resources>

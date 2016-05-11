@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Birsrestho.MohiuddinActivity"
+    android:background="@drawable/birsrestho_bk"
+    tools:showIn="@layout/activity_mohiuddin">
+
+
+        <TextView
+            android:id="@+id/textViewheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ক্যাপ্টেন মহিউদ্দিন জাহাঙ্গীর"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            style="@style/Widget.AppCompat.ActionBar.TabView"
+            android:background="#88676767"
+            android:layout_marginTop="10dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollviewforJahangir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewheading"
+        android:layout_marginTop="10dp"
+        >
+
+               <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#88676767">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/img1edited22"
+                android:id="@+id/imageView" />
+            </LinearLayout>
+
+            <TextView
+            android:id="@+id/textViewdata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="জন্ম ও শিক্ষাজীবন: \n ১৯৪৯ সালে বরিশালের বাবুগঞ্জ থানার রহিমগঞ্জ গ্রামে জন্মগ্রহণ করেন। তাঁর পিতার নাম আবদুল মোতালেব হাওলাদার। তিনি ১৯৬৪ সালে ম্যাট্রিকুলেশন পাশ করেন এবং ১৯৬৬ তে আই.এস.সি পাশ করার পর বিমান বাহিনীতে যোগদানের চেষ্টা করেন, কিন্তু চোখের অসুবিধা থাকায় ব্যর্থ হন। ১৯৬৭ সালে তিনি ঢাকা বিশ্ববিদ্যালয়ে অধ্যয়নরত অবস্থায়ই পাকিস্তান সামরিক একাডেমীতে ক্যাডেট হিসেবে যোগদান করেন। ১৯৬৮-র ২ জুন তিনি ইঞ্জিনিয়ার্স কোরে কমিশন লাভ করেন।"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:paddingLeft="10dp"
+            android:background="#88676767"
+            android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textViewdata2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:text="মুক্তিযুদ্ধে ভূমিকা: \n ১৯৭১-এ স্বাধীনতা যুদ্ধ শুরু হওয়ার সময় তিনি পাকিস্তানে ১৭৩ নম্বর ইঞ্জিনিয়ার ব্যাটেলিয়ানে কর্তব্যরত ছিলেন। দেশের স্বাধীনতার জন্য তিনি ছুটে এসেছিলেন পাকিস্তানের দুর্গম এলাকা অতিক্রম করে। তবে ৩ জুলাই পাকিস্তানে আটকে পড়া আরো তিনজন অফিসারসহ তিনি পালিয়ে যান ও পরে পশ্চিমবঙ্গের মালদহ জেলার মেহেদীপুরে মুক্তিবাহিনীর ৭নং সেক্টরে সাব সেক্টর কমান্ডার হিসাবে যোগ দেন। তিনি সেক্টর কমান্ডার মেজর নাজমুল হকের অধীনে যুদ্ধ করেন। বিভিন্ন রণাঙ্গনে অসাধারণ কৃতিত্ব দেখানোর কারণে তাঁকে রাজশাহীর চাঁপাইনবাবগঞ্জ দখলের দায়িত্ব দেয়া হয়। স্বাধীনতার ঊষালগ্নে বিজয় সুনিশ্চিত করেই তিনি শহীদ হয়েছিলেন। ক্যাপ্টেন জাহাঙ্গীরকে চাপাইনবাবগঞ্জ জেলার ঐতিহাসিক সোনা মসজিদ আঙিনায় সমাহিত করা হয়। \n ১০ ডিসেম্বর ক্যাপ্টেন জাহাঙ্গীর, লেফটেন্যান্ট কাইয়ুম, লেফটেন্যান্ট আউয়াল ও ৫০ জনের মতো মুক্তিযোদ্ধা চাঁপাইনবাবগঞ্জের পশ্চিমে বারঘরিয়া এলাকায় অবস্থান গ্রহণ করেন। ১৪ ডিসেম্বর ভোরে মাত্র ২০ জন মুক্তিযোদ্ধা নিয়ে বারঘরিয়া এলাকা থেকে ৩/৪ টি দেশী নৌকায় করে রেহাইচর এলাকা থেকে মহানন্দা নদী অতিক্রম করেন। নদী অতিক্রম করার পর উত্তর দিক থেকে একটি একটি করে প্রত্যেকটি শত্রু অবস্থানের দখল নিয়ে দক্ষিণে এগোতে থাকেন। তিনি এমনভাবে আক্রমণ পরিকল্পনা করেছিলেন যেন উত্তর দিক থেকে শত্রু নিপাত করার সময় দক্ষিণ দিক থেকে শত্রু কোনকিছু আঁচ করতে না পারে। এভাবে এগুতে থাকার সময় জয় যখন প্রায় সুনিশ্চিত তখন ঘটে বিপর্যয়। হঠাৎ বাঁধের উপর থেকে ইস্ট পাকিস্তান সিভিল আর্মড ফোর্সের ৮/১০ জন সৈনিক দৌড়ে চর এলাকায় এসে যোগ দেয়। এরপরই শুরু হয় পাকিস্তান বাহিনীর অবিরাম ধারায় গুলিবর্ষন। ক্যাপ্টেন জাহাঙ্গীর জীবনের পরোয়া না করে সামনে এগিয়ে যান। ঠিক সেই সময়ে শত্রুর একটি গুলি এসে বিদ্ধ হয় জাহাঙ্গীরের কপালে। শহীদ হন তিনি।"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"
+                android:background="#88676767"
+                android:layout_marginTop="10dp" />
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

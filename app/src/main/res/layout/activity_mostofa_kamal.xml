@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/birsrestho_bk"
+    tools:context=".Birsrestho.MostofaKamalActivity"
+    tools:showIn="@layout/activity_mostofa_kamal">
+
+    <TextView
+        android:id="@+id/textViewheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সিপাহী মোস্তফা কামাল"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        style="@style/Widget.AppCompat.ActionBar.TabView"
+        android:background="#88676767"
+        android:layout_marginTop="10dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollviewforJahangir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewheading"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#88676767">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/img3edited22"
+                    android:id="@+id/imageView" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewdata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="জন্ম ও শিক্ষাজীবন: \n মোহাম্মদ মোস্তফা কামাল ১৯৪৭ সালের ১৬ ডিসেম্বর ভোলা জেলার দৌলতখান থানার পশ্চিম হাজীপুর গ্রামে জন্মগ্রহণ করেন। তার পিতা হাবিবুর রহমান সেনাবাহিনীর অবসরপ্রাপ্ত হাবিলদার ছিলেন। শৈশব থেকেই দুঃসাহসী হিসেবে খ্যাত ছিলেন। পড়াশোনা বেশিদূর করতে পারেননি। প্রাথমিক বিদ্যালয়ের পর উচচ বিদ্যালয়ে দু-এক বছর অধ্যয়ন করেন।"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"
+                android:background="#88676767"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textViewdata2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="মুক্তিযুদ্ধে ভূমিকা: \n ১৯৬৭-র ১৬ ডিসেম্বর বাড়ী থেকে পালিয়ে গিয়ে সেনাবাহিনীতে চাকরি গ্রহণ করেন। তিনি ছিলেন চতুর্থ ইস্ট বেঙ্গল রেজিমেন্টের সৈনিক। ১৯৭১-এর প্রথম দিকে চতুর্থ ইস্ট বেঙ্গল রেজিমেন্টকে কুমিল্লা সেনানিবাস থেকে ব্রাহ্মণবাড়িয়ায় পাঠানো হয়। স্বাধীনতা যুদ্ধ শুরু হওয়ার সাথে সাথে চতুর্থ ইস্ট বেঙ্গল রেজিমেন্ট ব্রাহ্মণবাড়িয়াকে ঘিরে তিনটি প্রতিরক্ষা ঘাঁটি গড়ে তোলে এন্ডারসন খালের পাঁড়ে। আখাউড়ায় অবস্থিত চতুর্থ ইস্ট বেঙ্গল রেজিমেন্ট দক্ষিণ দিক থেকে নিরাপত্তার জন্য দরুইন গ্রামের দুই নম্বর প্লাটুনকে নির্দেশ দেয়। সিপাহী মোস্তফা কামাল ছিলেন দুই নম্বর প্লাটুনে। কর্মতৎপরতার জন্য যুদ্ধের সময় মৌখিকভাবে তাঁকে ল্যান্স নায়েকের দ্বায়িত্ব দেয়া হয়।
+
+            ১৬ এপ্রিল পাকিস্তান সেনাবাহিনী চতুর্থ ইস্ট বেঙ্গলকে নিশ্চিহ্ন করার জন্য কুমিল্লা-আখাউড়া রেললাইন ধরে উত্তর দিকে এগুতে থাকে। ১৭ই এপ্রিল পরদিন ভোরবেলা পাকিস্তান সেনাবাহিনী দরুইন গ্রামে মুক্তিবাহিনীর অবস্থানের উপর মর্টার ও আর্টিলারীর গোলাবর্ষণ শুরু করলে মেজর শাফায়াত জামিল ১১ নম্বর প্লাটুনকে দরুইন গ্রামে আগের প্লাটুনের সাথে যোগ দেয়ার নির্দেশ দেন। ১১ নম্বর প্লাটুন নিয়ে হাবিলদার মুনির দরুইনে পৌছেন। সিপাহী মোহাম্মদ মোস্তফা কামাল তার নিকট থেকে গুলি নিয়ে নিজ পরিখায় অবস্থান গ্রহণ করেন। বেলা ১১ টার দিকে শুরু হয় শত্রুর গোলাবর্ষণ। সেই সময়ে শুরু হয় মুষলধারে বৃষ্টি। সাড়ে ১১টার দিকে মোগরা বাজার ও গঙ্গা সাগরের শত্রু অবস্থান থেকে গুলি বর্ষিত হয়। ১২ টার দিকে আসে পশ্চিম দিক থেকে সরাসরি আক্রমণ। প্রতিরক্ষার সৈন্যরা আক্রমণের তীব্রতায় বিহ্বল হয়ে পড়ে। কয়েক জন শহীদ হন। মোস্তফা কামাল মরিয়া হয়ে পাল্টা গুলি চালাতে থাকেন। তাঁর পূর্ব দিকের সৈন্যরা পেছনে সরে নতুন অবস্থানে সরে যেতে থাকে এবং মোস্তফাকে যাবার জন্য অনুরোধ করে। কিন্তু তাদের সবাইকে নিরাপদে সরে যাওয়ার সুযোগের জন্য মোস্তফা পূর্ণোদ্যমে এল.এম.জি থেকে গুলি চালাতে থাকেন। তাঁর ৭০ গজের মধ্যে শত্রুপক্ষ চলে এলেও তিনি থামেননি। এতে করে শত্রু রা তাঁর সঙ্গীদের পিছু ধাওয়া করতে সাহস পায়নি। এক সময় গুলি শেষ হয়ে গেলে, শত্রুর আঘাতে তিনিও লুটিয়ে পড়েন।"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"
+                android:background="#88676767"
+                android:layout_marginTop="10dp" />
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

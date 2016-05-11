@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shoikat.birsrestho" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/generalnotitle" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".BirsresthoActivity"
+            android:label="@string/title_activity_birsrestho"
+            android:screenOrientation="portrait"
+            android:theme="@style/generalnotitle" />
+        <activity
+            android:name=".Birsrestho.MohiuddinActivity"
+            android:label="@string/title_activity_mohiuddin"
+            android:screenOrientation="portrait"
+            android:theme="@style/generalnotitle" />
+        <activity
+            android:name=".Birsrestho.HamidurActivity"
+            android:label="@string/title_activity_hamidur"
+            android:screenOrientation="portrait"
+            android:theme="@style/generalnotitle" />
+        <activity
+            android:name=".Birsrestho.MostofaKamalActivity"
+            android:label="@string/title_activity_mostofa_kamal"
+            android:screenOrientation="portrait"
+            android:theme="@style/generalnotitle" />
+        <activity
+            android:name=".Birsrestho.RuhulAminActivity"
+            android:label="@string/title_activity_ruhul_amin"
+            android:screenOrientation="portrait"
+            android:theme="@style/generalnotitle" />
+        <activity
+            android:name=".Birsrestho.MatiurRahmanActivity"
+            android:label="@string/title_activity_matiur_rahman"
+            android:screenOrientation="portrait"
+            android:theme="@style/generalnotitle" />
+        <activity
+            android:name=".Birsrestho.MunsiAbdurRaufActivity"
+            android:label="@string/title_activity_munsi_abdur_rauf"
+            android:screenOrientation="portrait"
+            android:theme="@style/generalnotitle" />
+        <activity
+            android:name=".Birsrestho.NurMohammadActivity"
+            android:label="@string/title_activity_nur_mohammad"
+            android:screenOrientation="portrait"
+            android:theme="@style/generalnotitle" />
+        <activity
+            android:name=".BiruttomActivity"
+            android:label="@string/title_activity_biruttom"
+            android:screenOrientation="portrait"
+            android:theme="@style/generalnotitle" />
+        <activity
+            android:name=".BirbikromActivity"
+            android:label="@string/title_activity_birbikrom"
+            android:screenOrientation="portrait"
+            android:theme="@style/generalnotitle" />
+        <activity
+            android:name=".BirprotikActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_birprotik" >
+        </activity>
+    </application>
+
+</manifest>

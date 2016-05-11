@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Birsrestho.HamidurActivity"
+    android:background="@drawable/birsrestho_bk"
+    tools:showIn="@layout/activity_hamidur">
+
+    <TextView
+        android:id="@+id/textViewheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সিপাহী মোহাম্মদ হামিদুর রহমান"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        style="@style/Widget.AppCompat.ActionBar.TabView"
+        android:background="#88676767"
+        android:layout_marginTop="10dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollviewforJahangir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewheading"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#88676767">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/img2edited22"
+                    android:id="@+id/imageView" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textViewdata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="জন্ম ও শিক্ষাজীবন: \n মোহাম্মদ হামিদুর রহমান জন্ম ১৯৫৩ সালের ২ ফেব্রুয়ারি তদানিন্তন যশোর জেলার (বর্তমানে ঝিনাইদহ জেলা) মহেশপুর উপজেলার খোরদা খালিশপুর গ্রামে।তাঁর পিতার নাম আব্বাস আলী মন্ডল এবং মায়ের নাম মোসাম্মাৎ কায়সুন্নেসা। শৈশবে তিনি খালিশপুর প্রাথমিক বিদ্যালয় এবং পরবর্তীকালে স্থানীয় নাইট স্কুলে সামান্য লেখাপড়া করেন।"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:background="#88676767"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textViewdata2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="মুক্তিযুদ্ধে ভূমিকা: \n ১৯৭০ সালে হামিদুর যোগ দেন সেনাবাহিনীতে সিপাহী পদে৷ তাঁর প্রথম ও শেষ ইউনিট ছিল ইস্ট বেঙ্গল রেজিমেন্ট৷ সেনাবাহিনীতে ভর্তির পরই প্রশিক্ষণের জন্য তাঁকে পাঠানো হলো চট্টগ্রামের ইস্ট বেঙ্গল রেজিমেন্ট সেন্টারে৷ ২৫ মার্চের রাতে চট্টগ্রামের ইস্ট বেঙ্গল রেজিমেন্ট ওখানকার আরও কয়েকটি ইউনিটের সমন্বয়ে পাকিস্তানি হানাদার বাহিনীর বিরুদ্ধে বিদ্রোহ ঘোষণা করে মুক্তিযুদ্ধে অংশ নেয়৷
+
+            ১৯৭১ সালের ২৫ মার্চ পাকিস্তান সেনাবাহিনীর আক্রমণের মুখে চাকরীস্থল থেকে নিজ গ্রামে চলে আসেন। বাড়ীতে একদিন থেকে পরদিনই মুক্তিযুদ্ধে যোগ দেওয়ার জন্য চলে যান সিলেট জেলার শ্রীমঙ্গল থানার ধলই চা বাগানের পূর্ব প্রান্তে অবস্থিত ধলই বর্ডার আউটপোস্টে। তিনি ৪নং সেক্টরে যুদ্ধ করেন। ১৯৭১ সালের অক্টোবর মাসে হামিদুর রহমান ১ম ইস্টবেঙ্গলের সি কোম্পানির হয়ে ধলই সীমান্তের ফাঁড়ি দখল করার অভিযানে অংশ নেন। ভোর চারটায় মুক্তিবাহিনী লক্ষ্যস্থলের কাছে পৌছে অবস্থান নেয়। সামনে দু প্লাটুন ও পেছনে এক প্লাটুন সৈন্য অবস্থান নিয়ে অগ্রসর হতে থাকে শত্রু অভিমুখে। শত্রু অবস্থানের কাছাকাছি এলে একটি মাইন বিস্ফোরিত হয়। মুক্তিবাহিনী সীমান্ত ফাঁড়ির খুব কাছে পৌছে গেলেও ফাঁড়ির দক্ষিণ-পশ্চিম প্রান্ত হতে পাকিস্তানী সেনাবাহিনীর মেশিনগানের গুলিবর্ষণের জন্য আর অগ্রসর হতে পারছিলো না। অক্টোবরের ২৮ তারিখে ১ম ইস্ট বেঙ্গল রেজিমেন্ট ও পাকিস্তান বাহিনীর ৩০এ ফ্রন্টিয়ার রেজিমেন্টের মধ্যে তুমুল সংঘর্ষ বাধে। ইস্ট বেঙ্গল রেজিমেন্টের ১২৫ জন মুক্তিযোদ্ধা যুদ্ধে অংশ নেয়। মুক্তিবাহিনী পাকিস্তান বাহিনীর মেশিনগান পোস্টে গ্রেনেড হামলার সিদ্ধান্ত নেয়। গ্রেনেড ছোড়ার দায়িত্ব দেয়া হয় হামিদুর রহমানকে। তিনি পাহাড়ি খালের মধ্য দিয়ে বুকে হেঁটে গ্রেনেড নিয়ে আক্রমণ শুরু করেন। দুটি গ্রেনেড সফলভাবে মেশিনগান পোস্টে আঘাত হানে, কিন্তু তার পরপরই হামিদুর রহমান গুলিবিদ্ধ হন। সে অবস্থাতেই তিনি মেশিনগান পোস্টে গিয়ে সেখানকার দুই জন পাকিস্তানী সৈন্যের সাথে হাতাহাতি যুদ্ধ শুরু করেন। এভাবে আক্রণের মাধ্যমে হামিদুর রহমান এক সময় মেশিনগান পোস্টকে অকার্যকর করে দিতে সক্ষম হন। এই সুযোগে ইস্ট বেঙ্গল রেজিমেন্টের মুক্তিযোদ্ধারা বিপুল উদ্যমে এগিয়ে যান, এবং শত্রু পাকিস্তান সেনাবাহিনীকে পরাস্ত করে সীমানা ফাঁড়িটি দখল করতে সমর্থ হন। কিন্তু হামিদুর রহমান বিজয়ের স্বাদ আস্বাদন করতে পারেননি, ফাঁড়ি দখলের পরে মুক্তিযোদ্ধারা শহীদ হামিদুর রহমানের লাশ উদ্ধার করে। হামিদুর রহমানের মৃতদেহ সীমান্তের অল্প দূরে ভারতীয় ভূখন্ডে ত্রিপুরা রাজ্যের হাতিমেরছড়া গ্রামের স্থানীয় এক পরিবারের পারিবারিক গোরস্থানে দাফন করা হয়। নীচু স্থানে অবস্থিত কবরটি এক সময় পানির তলায় তলিয়ে যায়। ২০০৭ সালের ২৭শে অক্টোবর বাংলাদেশের তত্ত্বাবধায়ক সরকার হামিদুর রহমানের দেহ বাংলাদেশে ফিরিয়ে আনার সিদ্ধান্ত নেয়। সেই অনুযায়ী ২০০৭ সালের ১০ই ডিসেম্বর বাংলাদেশ রাইফেলসের একটি দল ত্রিপুরা সীমান্তে হামিদুর রহমানের দেহাবশেষ গ্রহণ করে, এবং যথাযোগ্য মর্যাদার সাথে কুমিল্লার বিবিরহাট সীমান্ত দিয়ে শহীদের দেহাবশেষ বাংলাদেশে নিয়ে আসা হয়। ১১ই ডিসেম্বর রাষ্ট্রীয় মর্যাদায় বীরশ্রেষ্ঠ হামিদুর রহমানকে ঢাকার বুদ্ধিজীবী কবরস্থানে সমাহিত করা হয়।"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:paddingLeft="10dp"
+                android:background="#88676767"
+                android:layout_marginTop="10dp" />
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
